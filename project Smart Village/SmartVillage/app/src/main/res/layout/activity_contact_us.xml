@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactUsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/navigation"
+        android:padding="8dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SmartVillage"
+            android:textColor="@color/purple_700"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:padding="4dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address : "
+            android:textColor="@color/textColor"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:padding="4dp"
+            />
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Chikhali, Sangamner 422605, Ahmednagar, Maharashtra"
+            android:textColor="@color/textColor"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:padding="4dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="24dp"
+                android:src="@drawable/gmail"
+                />
+            <TextView
+                android:id="@+id/contactUsEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="smartvillage@gmail.com"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:textColor="@color/colorAccent"
+                android:paddingLeft="8dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="24dp"
+                android:src="@drawable/tel"
+                />
+
+            <TextView
+                android:id="@+id/contactUsMobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="022 4120 1220"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:textColor="@color/colorAccent"
+                android:paddingLeft="8dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="24dp"
+                android:src="@drawable/whatsapp"
+                />
+
+            <TextView
+                android:id="@+id/contactUsWhatsapp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="+91 8605858399"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:textColor="@color/colorAccent"
+                android:paddingLeft="8dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                />
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Follow Us On"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:padding="4dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/twitter"
+                android:layout_width="60dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/twitter" />
+
+            <ImageView
+                android:id="@+id/youtube"
+                android:layout_width="60dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+
+                android:src="@drawable/youtube" />
+
+            <ImageView
+                android:id="@+id/facebook"
+                android:layout_width="60dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+
+                android:src="@drawable/facebook" />
+
+            <ImageView
+                android:id="@+id/instagram"
+                android:layout_width="60dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/instagram" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_alignParentBottom="true"
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_marginTop="0dp"
+        android:layout_height="56dp"
+        app:menu="@menu/navigation_menu" />
+
+</RelativeLayout>

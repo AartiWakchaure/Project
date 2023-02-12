@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "405233634493",
+    "firebase_url": "https://smartvillage-26bb9-default-rtdb.firebaseio.com",
+    "project_id": "smartvillage-26bb9",
+    "storage_bucket": "smartvillage-26bb9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:405233634493:android:05f86d8af674dcaea77bd4",
+        "android_client_info": {
+          "package_name": "com.example.adminsmartvillage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "405233634493-10piv20sdfom5bpdlah40vrrl7iea32o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2Nb1-Mq00h12FIdpS_QCJDCU7nw99fkw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "405233634493-10piv20sdfom5bpdlah40vrrl7iea32o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:405233634493:android:5d7e4114ea54d53aa77bd4",
+        "android_client_info": {
+          "package_name": "com.example.smartvillage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "405233634493-10piv20sdfom5bpdlah40vrrl7iea32o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2Nb1-Mq00h12FIdpS_QCJDCU7nw99fkw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "405233634493-10piv20sdfom5bpdlah40vrrl7iea32o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
